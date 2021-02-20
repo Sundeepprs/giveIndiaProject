@@ -34,9 +34,9 @@ failure case:
 
 #### Solution
 
-This project uses `typeorm` so any type of database supported by typeorm can be used. You can configure them in `ormconfig.json` file. It currently uses mariadb on localhost. The tables will be automatically created on start with 3 sample users each with 4 accounts each as per random allocation.
+This project uses `typeorm` so any type of database supported by typeorm can be used. You can configure them in `ormconfig.json` file. It currently uses mysql on localhost. The tables will be automatically created on start with 7 sample users each with 3 accounts each as per random allocation.
 
-`Swagger 2.0` has been added for essential APIs. Please go to URL (/api-docs) to view the documentation.
+`Swagger` has been added for essential APIs. Please go to URL (/api-docs) to view the documentation.
 
 Steps to run this project:
 
