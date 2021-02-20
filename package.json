@@ -1,0 +1,23 @@
+{
+  "name": "giveindia",
+  "version": "1.0.0",
+  "description": "A project for giveIndia",
+  "scripts": {
+    "start": "ts-node src/index.ts"
+  },
+  "author": "Sundeep_Paruchuru",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "mysql": "^2.18.1",
+    "reflect-metadata": "^0.1.13",
+    "sprintf": "^0.1.5",
+    "swagger-ui-express": "^4.1.6",
+    "typeorm": "^0.2.31"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.31",
+    "ts-node": "^9.1.1",
+    "typescript": "^4.1.5"
+  }
+}
